@@ -22,6 +22,12 @@ bun install
 bun run generate-pwa-icons
 ```
 
+## vite setup
+
+- use [qrcode plugin](https://github.com/svitejs/vite-plugin-qrcode)
+- add dev `@types/node`
+- path `@` alias cf. [shadcn setup](https://ui.shadcn.com/docs/installation/vite)
+
 ## changelog
 
 w/ [changie](https://changie.dev/guide/installation/#nodejs)
