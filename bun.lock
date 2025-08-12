@@ -13,6 +13,7 @@
         "@types/react-dom": "^19.0.3",
         "@vite-pwa/assets-generator": "^0.2.6",
         "@vitejs/plugin-react": "^4.2.1",
+        "changie": "^1.22.1",
         "eslint": "^9.18.0",
         "eslint-plugin-react-hooks": "^5.0.0",
         "eslint-plugin-react-refresh": "^0.4.18",
@@ -484,6 +485,8 @@
     "caniuse-lite": ["caniuse-lite@1.0.30001734", "", {}, "sha512-uhE1Ye5vgqju6OI71HTQqcBCZrvHugk0MjLak7Q+HfoBgoq5Bi+5YnwjP4fjDgrtYr/l8MVRBvzz9dPD4KyK0A=="],
 
     "chalk": ["chalk@4.1.2", "", { "dependencies": { "ansi-styles": "^4.1.0", "supports-color": "^7.1.0" } }, "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="],
+
+    "changie": ["changie@1.22.1", "", { "bin": { "changie": "npm/changie.js" } }, "sha512-afrk+nCoEYxkk9eEArHGJ1sIRwfpQRAzpXwUlzXuSqV9+9vg792RyxLKYBk7QGrkOhyyuguLjYe6EgDXsF/8Jw=="],
 
     "chownr": ["chownr@1.1.4", "", {}, "sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg=="],
 

@@ -21,3 +21,26 @@
 bun install
 bun run generate-pwa-icons
 ```
+
+## changelog
+
+w/ [changie](https://changie.dev/guide/installation/#nodejs)
+
+setup:
+
+- `bun add --dev changie`
+- edit config for package.json: https://changie.dev/integrations/nodejs/
+- `bunx changie init`
+
+workflow:
+
+```
+bunx changie new
+# fixed ...
+bunx changie new
+# added ...
+
+bunx changie batch [patch|minor|major]
+
+bunx changie merge
+```
