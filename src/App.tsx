@@ -1,17 +1,21 @@
 import appLogo from "/favicon.svg"
 import PWABadge from "./PWABadge.tsx"
 import "./App.css"
+import Todos from "./components/Todos.tsx"
 
 function App() {
   return (
     <>
       <div>
-        <img src={appLogo} className="logo" alt="w-jotai logo" />
+        <img
+          src={appLogo}
+          width={100}
+          height={100}
+          className="logo"
+          alt="w-jotai logo"
+        />
       </div>
-      <h1 className="text-3xl font-semibold text-secondary-foreground">
-        w-jotai
-      </h1>
-      <p className="font-extralight p-2 bg-accent">hello</p>
+      <Todos />
       <PWABadge />
     </>
   )
